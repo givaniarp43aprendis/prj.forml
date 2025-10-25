@@ -1,9 +1,11 @@
 @charset "UTF-8";
  
 /* Media Querys para dispositivos móveis tablet 780 */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
     body {
+        height: 100%;
         background-image: url('../imagem/pexels-rachel-claire-5531300.jpg')
+        background-size: cover;
     }
     section#cadastro {
         
@@ -22,7 +24,12 @@
 }
 @media screen and(max-width: 992px) {
     body {
+
+        height: 100%;
+       background-size: cover;
         background-image: url('../imagem/pexels-mati-21630943.jpg')
+       
+        
     }
     section#cadastro {
         width: 80%;                /* ocupa mais da tela em mobile */
@@ -41,7 +48,7 @@
 }
 @media screen and (max-width: 1200px) {
     body {
-        background-image: url('../pexels-rachel-claire-5531300.jpg')
+        background-image: url('../imagem/pexels-kudi-32622213\ \(1\).jpg')
     }
     section#cadastro {
         width: 70%;                /* ocupa mais da tela em mobile */
