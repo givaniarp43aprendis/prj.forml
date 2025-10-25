@@ -1,8 +1,59 @@
 @charset "UTF-8";
- body {
-        background-image: linear-gradient(to top,#186a68,#3b7a04);
+ 
+/* Media Querys para dispositivos móveis tablet 780 */
+@media screen and (max-width: 780px) {
+    body {
+        background-image: url('../imagem/pexels-rachel-claire-5531300.jpg')
     }
-@media only screen and (max-width: 600px) {
-   wi
-   
+    section#cadastro {
+        
+        width: 60%;                /* ocupa mais da tela em mobile */
+            background-image: linear-gradient(to left,blue,green);
+        padding: 1rem;
+    }
+
+    /* exemplo: ajustar títulos */
+    #imagem h1 {
+        font-size: 1.3rem;
+    }
+    #imagem h2 {
+        font-size: 1rem;
+    }
+}
+@media screen and(max-width: 992px) {
+    body {
+        background-image: url('../imagem/pexels-mati-21630943.jpg')
+    }
+    section#cadastro {
+        width: 80%;                /* ocupa mais da tela em mobile */
+            background-image: linear-gradient(to left,blue,green);
+        padding: 0.5rem;
+    }
+
+    /* exemplo: ajustar títulos */
+    #imagem h1 {
+        font-size: 1rem;
+    }
+    #imagem h2 {
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    body {
+        background-image: url('../pexels-rachel-claire-5531300.jpg')
+    }
+    section#cadastro {
+        width: 70%;                /* ocupa mais da tela em mobile */
+            background-image: linear-gradient(to left,blue,green);
+        padding: 0.7rem;
+    }
+
+    /* exemplo: ajustar títulos */
+    #imagem h1 {
+        font-size: 1.1rem;
+    }
+    #imagem h2 {
+        font-size: 0.9rem;
+    }
 }
